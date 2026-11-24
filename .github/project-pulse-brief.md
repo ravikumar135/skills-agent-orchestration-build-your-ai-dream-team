@@ -22,7 +22,9 @@ The implementation should also create `.vscode/launch.json` so the dashboard can
 
 When the dashboard opens, it should display the Project Pulse UI from `app/index.html`, not a server directory listing. The launch configuration should serve from the `app/` directory and open `index.html`.
 
-Use a top-level `projects` array in `app/project-data.json`. Each project should include:
+Use a top-level `projects` array in `app/project-data.json`. Each project should include: 
+
+
 
 - `name`
 - `owner`
