@@ -24,8 +24,6 @@ When the dashboard opens, it should display the Project Pulse UI from `app/index
 
 Use a top-level `projects` array in `app/project-data.json`. Each project should include: 
 
-
-
 - `name`
 - `owner`
 - `status`
