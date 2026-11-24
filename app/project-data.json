@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "Contributor Onboarding",
+      "owner": "Mona",
+      "status": "Active",
+      "recentActivity": "Drafted the quick-start guide and welcomed three new contributors.",
+      "priority": "High",
+      "summary": "Make the first contribution feel clear, friendly, and easy to complete."
+    },
+    {
+      "name": "Documentation Refresh",
+      "owner": "Ari",
+      "status": "In review",
+      "recentActivity": "Navigation updates are ready for a final content pass.",
+      "priority": "Medium",
+      "summary": "Help contributors find current guidance without digging through old pages."
+    },
+    {
+      "name": "Release Readiness",
+      "owner": "Sam",
+      "status": "At risk",
+      "recentActivity": "Two release checklist items are waiting on cross-team feedback.",
+      "priority": "High",
+      "summary": "Bring open release tasks into view and surface risks before ship day."
+    },
+    {
+      "name": "Community Signals",
+      "owner": "Jordan",
+      "status": "Planning",
+      "recentActivity": "Collected recurring questions from the latest community check-in.",
+      "priority": "Low",
+      "summary": "Turn community feedback into a small, actionable set of improvements."
+    }
+  ]
+}

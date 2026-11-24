@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <meta name="description" content="A clear, contributor-friendly snapshot of Mona's team projects.">
+    <title>Project Pulse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="project-data.json" as="fetch" crossorigin>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="dashboard-header">
+        <div class="brand-mark" aria-hidden="true">P</div>
+        <div class="header-copy">
+          <p class="eyebrow">MONA'S TEAM WORKSPACE</p>
+          <h1>Project Pulse</h1>
+          <p class="page-description">A clear view of what's moving, who's leading, and where help is needed.</p>
+        </div>
+        <div class="snapshot-pill">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Team snapshot
+        </div>
+      </header>
+
+      <section class="overview" aria-labelledby="overview-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">AT A GLANCE</p>
+            <h2 id="overview-title">The team's current focus</h2>
+          </div>
+          <p class="overview-note" id="project-count">Loading projects...</p>
+        </div>
+        <div class="project-grid" id="project-list" aria-live="polite" aria-busy="true">
+          <p class="loading-message">Gathering the latest project updates...</p>
+        </div>
+        <p class="error-message" id="load-error" role="alert" hidden></p>
+      </section>
+
+      <footer class="dashboard-footer">
+        <span class="footer-mark" aria-hidden="true">P</span>
+        <p>Small steps, shared momentum.</p>
+        <p class="footer-detail">Project updates at a glance</p>
+      </footer>
+    </main>
+  </body>
+</html>
